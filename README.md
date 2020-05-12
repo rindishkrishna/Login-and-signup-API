@@ -1,3 +1,17 @@
-# jwt-auth-nodejs
+# Login and Signup API
 
-signup and login jwt auth nodejs
+ Nodejs,express,Mongdb
+ 
+# Api documentation and testing
+
+https://register-login-api.herokuapp.com/api-docs/
+
+# run 
+
+  git clone and npm install
+  
+ # ENV variables
+ 
+  PRIVATEKEY<br/>
+  PORT<br/>
+  MONGO_URL<br/>
