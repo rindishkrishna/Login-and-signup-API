@@ -46,7 +46,7 @@ Router.post('/',
     if(!user) return res.status(400).send([{msg:"invalid email or password"}]);
     const valid= await  bcrypt.compare(req.body.password ,user.password);
     if(!valid) return res.status(400).send([{msg:"invalid email or password"}]);
-    const token =jwt.sign({id: user._id,name:user.name,roomno:user.roomno},process.env.PRIVATEKEY);
+    const token =jwt.sign({id: user._id,name:user.name},process.env.PRIVATEKEY);
         res.send({token:token});
 }));
 module.exports=Router;

@@ -2,7 +2,7 @@ const swaggerJsdoc = require('swagger-jsdoc');
 const options = {
     swaggerDefinition: {
         info: {
-            title: "Mh-app API Documentation",
+            title: "Register-Login API Documentation",
             version: "1.0.0",
             description:
                 "A documention of Backend API written in Nodejs.",
@@ -15,7 +15,7 @@ const options = {
             },
         }
     },
-    apis: ['./Routes/LoginRoute.js','./Routes/RegisterRoute.js','./Routes/ReviewRoute.js','./Routes/MessRoute.js','./Routes/CountRoute.js','./Routes/ForgotpassRoute.js']
+    apis: ['./Routes/LoginRoute.js','./Routes/RegisterRoute.js']
 };
 const specs = swaggerJsdoc(options);
 module.exports =specs;

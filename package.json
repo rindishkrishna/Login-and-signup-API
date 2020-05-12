@@ -1,5 +1,5 @@
 {
-  "name": "mosh2",
+  "name": "register User",
   "version": "1.0.0",
   "description": "",
   "main": "App.js",
@@ -25,6 +25,7 @@
     "express-validator": "^6.4.0",
     "helmet": "^3.21.3",
     "jsonwebtoken": "^8.5.1",
+    "minimist": "^1.2.5",
     "mongoose": "^5.9.1",
     "nodemon": "^2.0.2",
     "swagger-jsdoc": "^4.0.0",
