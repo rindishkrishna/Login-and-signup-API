@@ -18,7 +18,7 @@
     "bcrypt": "^4.0.0",
     "body-parser": "latest",
     "compression": "^1.7.4",
-    "config": "^3.2.6",
+    "config": "^3.3.8",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
